@@ -52,6 +52,8 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ![img_1.png](img_1.png)
 
+this was also my brainstorm idea for class diagram not updated!
+![img_2.png](img_2.png)
 
 ## Future Work
 - Add GUI
