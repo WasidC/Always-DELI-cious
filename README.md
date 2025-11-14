@@ -1,15 +1,24 @@
-# Project Title
+# Always-DELI-cious – Custom Sandwich Ordering System
 
 ## Description of the Project
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
+DELI-cious is a ordering system designed to simulate a deli shop where customers can create customized sandwiches, add drinks and chips, manage toppings, and generate printable receipts.
 
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
+- As a user, I want to input my information, so the application can create a customer profile.
 
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
+- As a user, I want to build a sandwich with bread, size, and toppings, so I can customize my order.
+
+- As a user, I want to add drinks and chips, so I can complete my meal.
+
+- As a user, I want to view my total, so I know how much my order costs.
+
+- As a user, I want to apply discount codes, so I can lower my total cost.
+
+- As a user, I want to receive immediate feedback, so I know what option to choose next.
+
+- As a user, I want my receipt saved to a file, so I can keep a copy of my order.
 
 ## Setup
 
@@ -27,13 +36,15 @@ Follow these steps to get your application running within IntelliJ IDEA:
 1. Open IntelliJ IDEA.
 2. Select "Open" and navigate to the directory where you cloned or downloaded the project.
 3. After the project opens, wait for IntelliJ to index the files and set up the project.
-4. Find the main class with the `public static void main(String[] args)` method.
-5. Right-click on the file and select 'Run 'YourMainClassName.main()'' to start the application.
+4. Find the main class with the src/main/java/com/pluralsight/App.java
+5. Right-click on the file and select 'Run src/main/java/com/pluralsight/App.java' to start the application.
 
 ## Technologies Used
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- Java: 17 
+- Standard Java I/O (FileReader, BufferedReader, PrintWriter)
+- CSV-based data loading 
+- Object-Oriented Programming: classes, inheritance, interfaces
 
 ## Demo
 
@@ -42,11 +53,17 @@ Include screenshots or GIFs that show your application in action. Use tools like
 ![Application Screenshot](path/to/your/screenshot.png)
 
 ## Future Work
+- Add GUI
 
-Outline potential future enhancements or functionalities you might consider adding:
+- Add delivery options
 
-- Additional feature to be developed.
-- Improvement of current functionalities.
+- Add calorie tracking
+
+- Add a manager dashboard
+
+- Add employee login system
+
+- Email receipt support
 
 ## Resources
 
@@ -54,15 +71,12 @@ List resources such as tutorials, articles, or documentation that helped you dur
 
 - [Java Programming Tutorial](https://www.example.com)
 - [Effective Java](https://www.example.com)
+- W3Schools 
 
 ## Team Members
 
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
+- Wasid Chowdhury
 
 ## Thanks
 
-Express gratitude towards those who provided help, guidance, or resources:
-
-- Thank you to [Mentor's Name] for continuous support and guidance.
-- A special thanks to all teammates for their dedication and teamwork.
+- Thank you to Raymond Potato Sensei for continuous support and guidance.
